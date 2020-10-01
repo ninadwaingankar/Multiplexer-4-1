@@ -1,0 +1,12 @@
+#a,b,c,d push buttons input
+NET a LOC = P17 | IOSTANDARD = LVCMOS33; 
+NET b LOC = P14 | IOSTANDARD = LVCMOS33; 
+NET c LOC = P10 | IOSTANDARD = LVCMOS33; 
+NET d LOC = P7   | IOSTANDARD = LVCMOS33; 
+
+#s0,s1 select signals on dip switches
+ NET s1   LOC = P80 | IOSTANDARD = LVCMOS33;   
+ NET s0   LOC = P81 | IOSTANDARD = LVCMOS33; 
+
+#output x on led
+NET xx loc=p16  | IOSTANDARD = LVCMOS33;   
